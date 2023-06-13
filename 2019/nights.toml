@@ -1,0 +1,189 @@
+[image]
+rows = 1024
+columns = 1024
+
+
+[processing]
+no_of_images_to_combine = 10
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+# The image file is an actual fit image while the reffile refers to the stats file for that image
+image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    # [[input.nights]]
+    # path = "F://Summer 2019/March 21, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+
+
+    # [[input.nights]]
+    # path = "F://Summer 2019/March 22, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+    
+    # [[input.nights]]
+    # path = "F://Summer 2019/March 30, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+    
+    # [[input.nights]]
+    # path = "F://Summer 2019/April 2, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+        
+    # [[input.nights]]
+    # path = "F://Summer 2019/April 18, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+        
+    # [[input.nights]]
+    # path = "F://Summer 2019/April 19, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+        
+    # [[input.nights]]
+    # path = "F://Summer 2019/April 25, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+        
+    # [[input.nights]]
+    # path = "F://Summer 2019/April 27, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-03-30_masterflat.fit"
+        
+    # [[input.nights]]
+    # path = "F://Summer 2019/May 3, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+            
+    # [[input.nights]]
+    # path = "F://Summer 2019/May 12, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+            
+    # [[input.nights]]
+    # path = "F://Summer 2019/May 22, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+            
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 5, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 6, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 7, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 8, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 12, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-05_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 24, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-25_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/June 25, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-25_masterflat.fit"
+                
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 7, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-06-25_masterflat.fit"
+                    
+    # # [[input.nights]]
+    # # path = "F://Summer 2019/July 22, 2019"
+    # # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 23, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 24, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 29, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 30, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/July 31, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                    
+    # [[input.nights]]
+    # path = "F://Summer 2019/August 6, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    # [[input.nights]]
+    # path = "F://Summer 2019/August 7, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    # [[input.nights]]
+    # path = "F://Summer 2019/August 16, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    # [[input.nights]]
+    # path = "F://Summer 2019/August 18, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    # [[input.nights]]
+    # path = "F://Summer 2019/August 23, 2019"
+    # masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    [[input.nights]]
+    path = "F://Summer 2019/August 27, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    [[input.nights]]
+    path = "F://Summer 2019/August 28, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    [[input.nights]]
+    path = "F://Summer 2019/August 29, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    [[input.nights]]
+    path = "F://Summer 2019/September 3, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                            
+    [[input.nights]]
+    path = "F://Summer 2019/September 4, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                            
+    [[input.nights]]
+    path = "F://Summer 2019/September 15, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                            
+    [[input.nights]]
+    path = "F://Summer 2019/September 17, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                            
+    [[input.nights]]
+    path = "F://Summer 2019/September 23, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                            
+    [[input.nights]]
+    path = "F://Summer 2019/October 6, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                        
+    [[input.nights]]
+    path = "F://Summer 2019/October 7, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+                                
+    [[input.nights]]
+    path = "F://Summer 2019/October 8, 2019"
+    masterflat = "E:/Data Processing/Master Flats/2019/2019-07-29_masterflat.fit"
+
+
+    
+[output]
+path = "E:/Data Processing/Python Processed/2019"

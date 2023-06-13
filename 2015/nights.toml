@@ -1,0 +1,228 @@
+[image]
+rows = 1024
+columns = 1024
+
+
+[processing]
+no_of_images_to_combine = 10
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+# The image file is an actual fit image while the reffile refers to the stats file for that image
+image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+# Using 3-1 flat: 3-1 -> 5-12
+    # [[input.nights]]
+    # path = "H://Raw Data/Summer 2015/March 1, 2015"
+    # masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    # Bad night
+    # [[input.nights]]
+    # path = "H://Raw Data/Summer 2015/March 5, 2015"
+    # masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 8, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 9, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 14, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 25, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 31, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 5, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 11, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 13, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 22, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 25, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 26, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/April 30, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/May 12, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+
+
+# Using 6-8 flat: 5-20 -> 6-23
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/May 20, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/May 21, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/May 27, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 1, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 8, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 15, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 18, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 22, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/June 23, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
+
+# Using 7-13 flat: 7-3 -> 8-21 
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 3, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 9, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    # No raw images taken in July 13
+    # [[input.nights]]
+    # path = "H://Raw Data/Summer 2015/July 13, 2015"
+    # masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 14, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 19, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 20, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 21, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/July 23, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 3, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 10, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 11, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 14, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 15, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 20, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/August 21, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+
+# Using 9-29 flat: 9-12 -> 
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 12, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 13, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 26, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 27, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 29, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/September 30, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/October 1, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/October 2, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/October 11, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/October 14, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/October 15, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"
+
+[output]
+path = "E:/Data Processing/Python Processed/2015"

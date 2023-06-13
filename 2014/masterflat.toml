@@ -1,0 +1,19 @@
+# Note that it's important to define input and output before image definition
+# input = "H:/Raw Data/Summer 2014/February 22, 2014"
+# input = "H:/Raw Data/Summer 2014/March 25, 2014"
+# input = "H:/Raw Data/Summer 2014/March 29, 2014"
+# input = "H:/Raw Data/Summer 2014/April 1, 2014"
+# input = "H:/Raw Data/Summer 2014/April 25, 2014"
+# input = "H:/Raw Data/Summer 2014/June 15, 2014"
+# input = "H:/Raw Data/Summer 2014/July 22, 2014"
+# input = "H:/Raw Data/Summer 2014/August 12, 2014"
+# input = "H:/Raw Data/Summer 2014/September 2, 2014"
+input = "H:/Raw Data/Summer 2014/September 13, 2014"
+
+output = "E:/Data Processing/Master Flats/2014"
+
+
+[image]
+rows = 1024
+columns = 1024
+

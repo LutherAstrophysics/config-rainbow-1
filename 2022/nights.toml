@@ -1,0 +1,129 @@
+[image]
+rows = 2048
+columns = 2048
+# New camera images (>= June 16 2022) have vignetting ring effect which we crop.
+# Array of crop regions. The last and first co-ordinate are joined to make an enclosing region
+crop_region = [
+    [[0, 448], [0, 0], [492, 0], [210, 181]], 
+    [[0, 1600], [0, 2048], [480, 2048], [210, 1867]],
+    [[1400, 2048], [2048, 2048], [2048, 1500], [1834, 1830]],
+    [[1508, 0], [1852, 241], [2048, 521], [2048, 0]]
+]
+
+
+[processing]
+no_of_images_to_combine = 10
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+# The image file is an actual fit image while the reffile refers to the stats file for that image
+image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 16, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-17_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 17, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-17_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 19, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 20, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 23, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 26, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/June 29, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/September 25, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/September 21, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/September 20, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/September 7, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 31, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 30, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 29, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 23, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 21, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+    
+    [[input.nights]]
+    path = "F://Summer 2022/August 16, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 4, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/August 3, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-08-29_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 29, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 28, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 19, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 17, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 9, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+    [[input.nights]]
+    path = "F://Summer 2022/July 1, 2022"
+    masterflat = "E:/Data Processing/Master Flats/2022/2022-06-19_masterflat.fit"
+
+[output]
+path = "E:/Data Processing/Python Processed/2022"

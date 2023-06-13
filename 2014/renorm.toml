@@ -1,0 +1,16 @@
+[processing]
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2014/April 21, 2014"
+    first_logfile_number = 3
+    last_logfile_number = 1000

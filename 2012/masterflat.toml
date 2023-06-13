@@ -1,0 +1,13 @@
+# Note that it's important to define input and output before image definition
+input = "F:/Summer 2012/February 11, 2012"
+# input = "F:/Summer 2012/April 9, 2012"
+# input = "F:/Summer 2012/May 10, 2012"
+# input = "F:/Summer 2012/June 11, 2012"
+
+output = "E:/Data Processing/Master Flats/2012"
+
+
+[image]
+rows = 1024
+columns = 1024
+

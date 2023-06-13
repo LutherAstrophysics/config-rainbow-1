@@ -1,0 +1,277 @@
+[processing]
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+                                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/February 28, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 03, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 43
+    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 05, 2020"
+    # first_logfile_number = 17
+    # last_logfile_number = 1000  
+
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 06, 2020"
+    # first_logfile_number = 9
+    # last_logfile_number = 1000     
+
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 09, 2020"
+    # first_logfile_number = 2
+    # last_logfile_number = 45
+    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 12, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 29, 2020"
+    # first_logfile_number = 55
+    # last_logfile_number = 1000 
+    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/March 30, 2020"
+    # first_logfile_number = 5
+    # last_logfile_number = 1000 
+    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 07, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 08, 2020"
+    # first_logfile_number = 10
+    # last_logfile_number = 40
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 09, 2020"
+    # first_logfile_number = 5
+    # last_logfile_number = 1000 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 14, 2020"
+    # first_logfile_number = 40
+    # last_logfile_number = 1000 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 15, 2020"
+    # first_logfile_number = 30
+    # last_logfile_number = 67 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 17, 2020"
+    # first_logfile_number = 50
+    # last_logfile_number = 1000 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 19, 2020"
+    # first_logfile_number = 37
+    # last_logfile_number = 80 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 20, 2020"
+    # first_logfile_number = 20
+    # last_logfile_number = 90 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/April 29, 2020"
+    # first_logfile_number = 30
+    # last_logfile_number = 1000 
+        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 02, 2020"
+    # first_logfile_number = 37
+    # last_logfile_number = 80 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 03, 2020"
+    # first_logfile_number = 58
+    # last_logfile_number = 100 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 06, 2020"
+    # first_logfile_number = 60
+    # last_logfile_number = 1000 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 11, 2020" # Pretty bad night, but not in bad list
+    # first_logfile_number = 40
+    # last_logfile_number = 1000 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 28, 2020"
+    # first_logfile_number = 50
+    # last_logfile_number = 1000 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 29, 2020"
+    # first_logfile_number = 20
+    # last_logfile_number = 140 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/May 30, 2020"
+    # first_logfile_number = 60
+    # last_logfile_number = 130 
+            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 01, 2020"
+    # first_logfile_number = 40
+    # last_logfile_number = 1000 
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 10, 2020"
+    # first_logfile_number = 10
+    # last_logfile_number = 1000
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 11, 2020"
+    # first_logfile_number = 20
+    # last_logfile_number = 140
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 16, 2020"
+    # first_logfile_number = 40
+    # last_logfile_number = 130 
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 17, 2020"
+    # first_logfile_number = 30
+    # last_logfile_number = 1000 
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/June 24, 2020"
+    # first_logfile_number = 40
+    # last_logfile_number = 140 
+                    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 05, 2020"
+    # first_logfile_number = 30
+    # last_logfile_number = 80 
+                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 07, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 60 
+                    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 15, 2020"
+    # first_logfile_number = 20
+    # last_logfile_number = 80 
+                    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 16, 2020"
+    # first_logfile_number = 35
+    # last_logfile_number = 1000 
+                    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 19, 2020" # Pretty bad night not in bad list
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+                    
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/July 22, 2020"
+    # first_logfile_number = 40
+    # last_logfile_number = 1000 
+                    
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/July 23, 2020"
+    first_logfile_number = 15
+    last_logfile_number = 83
+                    
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/July 27, 2020"
+    first_logfile_number = 25
+    last_logfile_number = 76 
+                    
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 03, 2020"
+    first_logfile_number = 43
+    last_logfile_number = 80 
+                        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/August 10, 2020" Not finished processing
+    # first_logfile_number = 43
+    # last_logfile_number = 80 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 11, 2020" # Pretty bad night not in bad list
+    first_logfile_number = 1
+    last_logfile_number = 41 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 17, 2020"
+    first_logfile_number = 6
+    last_logfile_number = 1000
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 18, 2020"
+    first_logfile_number = 19
+    last_logfile_number = 1000 
+                        
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/August 23, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 25, 2020"
+    first_logfile_number = 1
+    last_logfile_number = 60 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 29, 2020"
+    first_logfile_number = 10
+    last_logfile_number = 49 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/August 31, 2020" # Bad night not in bad list
+    first_logfile_number = 36
+    last_logfile_number = 1000 
+                        
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/September 02, 2020"
+    first_logfile_number = 1
+    last_logfile_number = 53
+                            
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/September 03, 2020"
+    first_logfile_number = 1
+    last_logfile_number = 50 
+                            
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/September 18, 2020"
+    first_logfile_number = 1
+    last_logfile_number = 30 
+                            
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/October 04, 2020" # Bad night not in bad list
+    # first_logfile_number = 1
+    # last_logfile_number = 1000 
+                                
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2020/October 06, 2020"
+    first_logfile_number = 1
+    last_logfile_number = 17 
+                                
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2020/October 08, 2020"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000

@@ -1,0 +1,135 @@
+[processing]
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/June 16, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/June 17, 2022"
+    first_logfile_number = 1
+    last_logfile_number = 120
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/June 19, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/June 20, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/June 23, 2022"
+    first_logfile_number = 15
+    last_logfile_number = 130
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/June 26, 2022"
+    first_logfile_number = 92
+    last_logfile_number = 1000
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/June 29, 2022"
+    first_logfile_number = 25
+    last_logfile_number = 102
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/July 01, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/July 09, 2022"
+    first_logfile_number = 48
+    last_logfile_number = 1000
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/July 17, 2022"
+    first_logfile_number = 1
+    last_logfile_number = 106
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/July 19, 2022"
+    first_logfile_number = 1
+    last_logfile_number = 120
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/July 28, 2022"
+    first_logfile_number = 1
+    last_logfile_number = 88
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/July 29, 2022"
+    first_logfile_number = 30
+    last_logfile_number = 1000
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/August 03, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = final
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/August 04, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/August 16, 2022"
+    first_logfile_number = 23
+    last_logfile_number = 1000
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/August 21, 2022"
+    first_logfile_number = 20
+    last_logfile_number = 1000
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/August 23, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/August 29, 2022"
+    first_logfile_number = 1
+    last_logfile_number = 62
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/August 30, 2022"
+    first_logfile_number = 14
+    last_logfile_number = 1000
+           
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/August 31, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+      
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/September 07, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+       
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2022/September 20, 2022"
+    first_logfile_number = 2
+    last_logfile_number = 32
+       
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/September 21, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+       
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2022/September 25, 2022"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000

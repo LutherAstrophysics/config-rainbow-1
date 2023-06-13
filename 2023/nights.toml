@@ -1,0 +1,34 @@
+[image]
+rows = 2048
+columns = 2048
+# New camera images (>= June 16 2022) have vignetting ring effect which we crop.
+# Array of crop regions. The last and first co-ordinate are joined to make an enclosing region
+crop_region = [
+    [[0, 448], [0, 0], [492, 0], [210, 181]], 
+    [[0, 1600], [0, 2048], [480, 2048], [210, 1867]],
+    [[1400, 2048], [2048, 2048], [2048, 1500], [1834, 1830]],
+    [[1508, 0], [1852, 241], [2048, 521], [2048, 0]]
+]
+
+
+[processing]
+no_of_images_to_combine = 10
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+# The image file is an actual fit image while the reffile refers to the stats file for that image
+image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    [[input.nights]]
+    path = "F://Summer 2023/ "
+    masterflat = "E:/Data Processing/Master Flats/2023/2022-06-17_masterflat.fit"
+
+[output]
+path = "E:/Data Processing/Python Processed/2023"

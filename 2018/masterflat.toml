@@ -1,0 +1,9 @@
+# Note that it's important to define input and output before image definition
+input = "H:/Raw Data 2018 Copy 2/Data/July 1, 2018"
+output = "E:/Data Processing/Master Flats/2018"
+
+
+[image]
+rows = 1024
+columns = 1024
+

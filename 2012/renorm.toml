@@ -1,0 +1,384 @@
+[processing]
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 11, 2012"
+    first_logfile_number = 6
+    last_logfile_number = 10
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 15, 2012"
+    first_logfile_number = 4
+    last_logfile_number = 13
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 17, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 18, 2012"
+    first_logfile_number = 4
+    last_logfile_number = 10
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 21, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/February 24, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 10
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 05, 2012"
+    first_logfile_number = 30
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 07, 2012"
+    first_logfile_number = 17
+    last_logfile_number = 26
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 08, 2012"
+    first_logfile_number = 18
+    last_logfile_number = 28
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 09, 2012"
+    first_logfile_number = 16
+    last_logfile_number = 32
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 16, 2012"
+    first_logfile_number = 5
+    last_logfile_number = 23
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 22, 2012"
+    first_logfile_number = 5
+    last_logfile_number = 24
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/April 30, 2012"
+    first_logfile_number = 9
+    last_logfile_number = 31
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 09, 2012"
+    first_logfile_number = 16
+    last_logfile_number = 40
+
+
+    ## Using 5-10 flat: 5-10 -> 6-9
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 10, 2012"
+    first_logfile_number = 2
+    last_logfile_number = 30
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 12, 2012"
+    first_logfile_number = 14
+    last_logfile_number = 42
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 13, 2012"
+    first_logfile_number = 15
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 14, 2012"
+    first_logfile_number = 14
+    last_logfile_number = 45
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 15, 2012"
+    first_logfile_number = 46
+    last_logfile_number = 57
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 16, 2012"
+    first_logfile_number = 6
+    last_logfile_number = 32
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 17, 2012"
+    first_logfile_number = 35
+    last_logfile_number = 1000
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 18, 2012"
+    first_logfile_number = 2
+    last_logfile_number = 15
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 20, 2012"
+    first_logfile_number = 16
+    last_logfile_number = 30
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 21, 2012"
+    first_logfile_number = 17
+    last_logfile_number = 40
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 24, 2012"
+    first_logfile_number = 8
+    last_logfile_number =23
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/May 28, 2012"
+    first_logfile_number = 3
+    last_logfile_number = 20
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 09, 2012"
+    first_logfile_number = 30
+    last_logfile_number = 68
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 11, 2012"
+    first_logfile_number = 60
+    last_logfile_number = 80
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 16, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 13
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 19, 2012"
+    first_logfile_number = 50
+    last_logfile_number = 78
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 21, 2012"
+    first_logfile_number = 11
+    last_logfile_number = 61
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 24, 2012"
+    first_logfile_number = 20
+    last_logfile_number = 42
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 25, 2012"
+    first_logfile_number = 10
+    last_logfile_number = 45
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/June 27, 2012"
+    first_logfile_number = 30
+    last_logfile_number = 58
+    
+
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 08, 2012"
+    first_logfile_number = 12
+    last_logfile_number = 40
+    
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 09, 2012"
+    first_logfile_number = 23
+    last_logfile_number = 1000
+
+
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 14, 2012"
+    first_logfile_number = 16
+    last_logfile_number = 26
+    
+    
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 16, 2012"
+    first_logfile_number = 26
+    last_logfile_number = 1000
+    
+    
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 19, 2012"
+    first_logfile_number = 4
+    last_logfile_number = 16
+    
+    
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 27, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 25
+    
+    
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/July 31, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+        
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 05, 2012"
+    first_logfile_number = 20
+    last_logfile_number = 38
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 07, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 16
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 09, 2012"
+    first_logfile_number = 5
+    last_logfile_number = 37
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 10, 2012"
+    first_logfile_number = 31
+    last_logfile_number = 38
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 16, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 17, 2012"
+    first_logfile_number = 23
+    last_logfile_number = 34
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 19, 2012"
+    first_logfile_number = 7
+    last_logfile_number = 35
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 20, 2012"
+    first_logfile_number = 20
+    last_logfile_number = 35
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 24, 2012"
+    first_logfile_number = 20
+    last_logfile_number = 34
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 29, 2012"
+    first_logfile_number = 5
+    last_logfile_number = 25
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/August 30, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 13
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 05, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 12
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 07, 2012"
+    first_logfile_number = 10
+    last_logfile_number = 16
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 09, 2012"
+    first_logfile_number = 5
+    last_logfile_number = 17
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 18, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 19, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 10
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 24, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 11
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 26, 2012"
+    first_logfile_number = 6
+    last_logfile_number = 13
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 27, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 6
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/September 29, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 6
+    
+            
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/October 02, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2012/October 03, 2012"
+    first_logfile_number = 1
+    last_logfile_number = 10
+    

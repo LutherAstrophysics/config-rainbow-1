@@ -1,0 +1,27 @@
+[image]
+rows = 1024
+columns = 1024
+
+
+[processing]
+no_of_images_to_combine = 10
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+# The image file is an actual fit image while the reffile refers to the stats file for that image
+image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2016/ "
+    masterflat = "E:/Data Processing/Master Flats/2016/2021-03-11_masterflat.fit"
+
+
+[output]
+path = "E:/Data Processing/Python Processed/2016"

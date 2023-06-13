@@ -1,0 +1,212 @@
+[processing]
+radii_of_extraction = [3, 4, 5,]
+
+
+[reference]
+file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+
+
+[input]
+
+    # # [[input.nights]]
+    # # path = "E://Data Processing/Python Processed/2019/March 21, 2019"
+    # # first_logfile_number = 1
+    # # last_logfile_number = 1000
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/March 22, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 36
+    
+    # # # [[input.nights]]
+    # # # path = "E://Data Processing/Python Processed/2019/March 30, 2019"
+    # # # first_logfile_number = 1
+    # # # last_logfile_number = 1000
+
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/April 02, 2019"
+    # first_logfile_number = 4
+    # last_logfile_number = 81
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/April 18, 2019"
+    # first_logfile_number = 31
+    # last_logfile_number = 97
+    
+    # # [[input.nights]]
+    # # path = "E://Data Processing/Python Processed/2019/April 19, 2019"
+    # # first_logfile_number = 1
+    # # last_logfile_number = 97
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/April 25, 2019"
+    # first_logfile_number = 15
+    # last_logfile_number = 106
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/April 27, 2019"
+    # first_logfile_number = 69
+    # last_logfile_number = 108
+
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/May 03, 2019"
+    # first_logfile_number = 4
+    # last_logfile_number = 66
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/May 12, 2019"
+    # first_logfile_number = 11
+    # last_logfile_number = 125
+   
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/May 22, 2019"
+    # first_logfile_number = 78
+    # last_logfile_number = 113
+    
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 05, 2019"
+    # first_logfile_number = 114
+    # last_logfile_number = 136
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 06, 2019"
+    # first_logfile_number = 43
+    # last_logfile_number = 160
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 07, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 161
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 08, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 91
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 12, 2019"
+    # first_logfile_number = 109
+    # last_logfile_number = 163
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 24, 2019"
+    # first_logfile_number = 14
+    # last_logfile_number = 130
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/June 25, 2019"
+    # first_logfile_number = 40
+    # last_logfile_number = 65
+        
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 07, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 40
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 23, 2019"
+    # first_logfile_number = 2
+    # last_logfile_number = 79
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 24, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 69
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 29, 2019"
+    # first_logfile_number = 62
+    # last_logfile_number = 70
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 30, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 102
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/July 31, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 91
+            
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 06, 2019"
+    # first_logfile_number = 48
+    # last_logfile_number = 94
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 07, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 53
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 16, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 81
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 18, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 23, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 74
+                
+    [[input.nights]] 
+    path = "E://Data Processing/Python Processed/2019/August 27, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 12
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/August 28, 2019"
+    first_logfile_number = 20
+    last_logfile_number = 64
+                
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/August 29, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+                
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/September 03, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 60
+                   
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/September 04, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+                   
+    # [[input.nights]]
+    # path = "E://Data Processing/Python Processed/2019/September 15, 2019"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+                   
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/September 17, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 12
+                   
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/September 23, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 33
+                   
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/October 06, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 26
+                   
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/October 07, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 25
+                   
+    [[input.nights]]
+    path = "E://Data Processing/Python Processed/2019/October 08, 2019"
+    first_logfile_number = 1
+    last_logfile_number = 25
+                   
