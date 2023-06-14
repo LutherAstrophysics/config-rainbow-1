@@ -1,5 +1,7 @@
+# This program opens all normfactor charts for a year
+# in a pdf. Just provide the year as a cmd line arg.
+
 import os
-import subprocess
 from m23.constants import CHARTS_FOLDER_NAME
 from PIL import Image 
 
