@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-from .folders import get_nights_sorted
+from folders import get_nights_sorted
 
 if len(sys.argv) > 1:
     year = sys.argv[1]
