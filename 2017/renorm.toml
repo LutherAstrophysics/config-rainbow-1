@@ -11,6 +11,169 @@ color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 [input]
 
     [[input.nights]]
-    path = "E://Data Processing/Python Processed/2017/ "
+    path = "E:/Data Processing/Python Processed/2017/March 09, 2017"
+    first_logfile_number = 12
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/March 11, 2017"
+    first_logfile_number = 35 
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/March 14, 2017"
+    first_logfile_number = 1 
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/March 21, 2017"
+    first_logfile_number = 30
+    last_logfile_number = 60
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/April 22, 2017"
+    first_logfile_number = 20
+    last_logfile_number = 56
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 02, 2017"
+    first_logfile_number = 43
+    last_logfile_number = 104
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 03, 2017"
+    first_logfile_number = 18
+    last_logfile_number = 84
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 04, 2017"
+    first_logfile_number = 55
+    last_logfile_number = 108
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 07, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 60
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 28, 2017"
+    first_logfile_number = 100
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/May 31, 2017"
+    first_logfile_number = 60
+    last_logfile_number = 141
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 04, 2017"
+    first_logfile_number = 80
+    last_logfile_number = 145
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 05, 2017"
+    first_logfile_number = 20
+    last_logfile_number = 79
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 06, 2017"
+    first_logfile_number = 36
+    last_logfile_number = 149
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 14, 2017"
+    first_logfile_number = 26
+    last_logfile_number = 45
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 20, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 42
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/June 26, 2017"
+    first_logfile_number = 20
+    last_logfile_number = 120
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/July 02, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 16
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/July 16, 2017"
+    first_logfile_number = 22
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/July 17, 2017"
+    first_logfile_number = 22
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/July 31, 2017"
+    first_logfile_number = 60
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/August 07, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 40
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/August 11, 2017"
+    first_logfile_number = 50
+    last_logfile_number = 81
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/August 22, 2017"
+    first_logfile_number = 25
+    last_logfile_number = 60
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/September 03, 2017"
     first_logfile_number = 1
     last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/September 09, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 30
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/September 11, 2017"
+    first_logfile_number = 1
+    last_logfile_number = 24
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2017/September 12, 2017"
+    first_logfile_number = 21
+    last_logfile_number = 1000
+    

@@ -8,9 +8,285 @@ logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
 color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
-[input]
+[input]    
+    # [[input.nights]] # Bad 
+    # path = "E:/Data Processing/Python Processed/2014 normal/February 17, 2014"
+    # first_logfile_number = 1
+    # last_logfile_number = 1000
+    
 
     [[input.nights]]
-    path = "E://Data Processing/Python Processed/2014/April 21, 2014"
+    path = "E:/Data Processing/Python Processed/2014 normal/February 18, 2014"
+    first_logfile_number = 2
+    last_logfile_number = 12
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/February 22, 2014"
+    first_logfile_number = 24
+    last_logfile_number = 1000 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/March 20, 2014"
+    first_logfile_number = 14
+    last_logfile_number = 51
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/March 25, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/March 29, 2014"
+    first_logfile_number = 6
+    last_logfile_number = 29
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/April 01, 2014"
+    first_logfile_number = 3
+    last_logfile_number = 56
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/April 04, 2014"
+    first_logfile_number = 10
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/April 08, 2014"
+    first_logfile_number = 7
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/April 21, 2014"
     first_logfile_number = 3
     last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/April 25, 2014"
+    first_logfile_number = 9
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 02, 2014"
+    first_logfile_number = 11
+    last_logfile_number = 41
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 05, 2014"
+    first_logfile_number = 37
+    last_logfile_number = 71
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 09, 2014"
+    first_logfile_number = 20
+    last_logfile_number = 101
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 13, 2014"
+    first_logfile_number = 38
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 21, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 52
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 22, 2014"
+    first_logfile_number = 107
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 23, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 28
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 24, 2014"
+    first_logfile_number = 30
+    last_logfile_number = 99
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 28, 2014"
+    first_logfile_number = 43
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/May 29, 2014"
+    first_logfile_number = 2
+    last_logfile_number = 122
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/June 15, 2014"
+    first_logfile_number = 26
+    last_logfile_number = 95
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/June 25, 2014"
+    first_logfile_number = 21
+    last_logfile_number = 40
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 02, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 126
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 03, 2014"
+    first_logfile_number = 5
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 06, 2014"
+    first_logfile_number = 32
+    last_logfile_number = 108
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 08, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 15, 2014"
+    first_logfile_number = 32
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 16, 2014"
+    first_logfile_number = 39
+    last_logfile_number = 71
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 17, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 22, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 106
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 23, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 27, 2014"
+    first_logfile_number = 67
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/July 31, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 84
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/August 11, 2014"
+    first_logfile_number = 5
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/August 12, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 71
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 02, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 58
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 06, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 07, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 49
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 13, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 39
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 15, 2014"
+    first_logfile_number = 3
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 16, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 44
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 17, 2014"
+    first_logfile_number = 22
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 21, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 31
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 22, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 19
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 26, 2014"
+    first_logfile_number = 1
+    last_logfile_number = 30
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2014 normal/September 28, 2014"
+    first_logfile_number = 6
+    last_logfile_number = 1000
+    

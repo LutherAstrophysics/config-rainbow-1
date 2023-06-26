@@ -1,5 +1,7 @@
 # Note that it's important to define input and output before image definition
-input = "H:/Raw Data/Summer 2010/"
+# input = "H:/Raw Data/Summer 2010/February 27, 2010" # 2-24 -> 7-28
+input = "H:/Raw Data/Summer 2010/July 31, 2010" # 7-31 -> 
+
 output = "E:/Data Processing/Master Flats/2010"
 
 

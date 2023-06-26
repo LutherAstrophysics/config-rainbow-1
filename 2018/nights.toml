@@ -8,64 +8,49 @@ no_of_images_to_combine = 10
 radii_of_extraction = [3, 4, 5,]
 
 
-[reference]
-# The image file is an actual fit image while the reffile refers to the stats file for that image
-image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
-
 
 [input]
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/June 3, 2018"
+    path = "H:/Raw Data/Summer 2018/June 3, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 1, 2018"
+    path = "H:/Raw Data/Summer 2018/July 1, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 2, 2018"
+    path = "H:/Raw Data/Summer 2018/July 2, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 3, 2018"
+    path = "H:/Raw Data/Summer 2018/July 3, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 5, 2018"
+    path = "H:/Raw Data/Summer 2018/July 5, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 6, 2018"
+    path = "H:/Raw Data/Summer 2018/July 6, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 7, 2018"
+    path = "H:/Raw Data/Summer 2018/July 7, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 8, 2018"
+    path = "H:/Raw Data/Summer 2018/July 8, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 10, 2018"
+    path = "H:/Raw Data/Summer 2018/July 10, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
     [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 16, 2018"
-    masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
-
-    [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 17, 2018"
-    masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
-
-    [[input.nights]]
-    path = "H:/Raw Data 2018 Copy 2/Data/July 31, 2018"
+    path = "H:/Raw Data/Summer 2018/July 16, 2018"
     masterflat = "E:/Data Processing/Master Flats/2018/2018-07-01_masterflat.fit"
 
 
-    
 [output]
 path = "E:/Data Processing/Python Processed/2018"
