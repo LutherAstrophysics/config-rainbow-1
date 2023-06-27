@@ -49,7 +49,7 @@ radii_of_extraction = [3, 4, 5,]
     path = "H:/Raw Data/Summer 2016/April 2, 2016"
     masterflat = "E:/Data Processing/Master Flats/2016/2016-02-19_masterflat.fit"
     
-# # Using 5-29 flat: 4-4 -> 7-25
+# # # Using 5-29 flat: 4-4 -> 7-25
 
     [[input.nights]]
     path = "H:/Raw Data/Summer 2016/April 4, 2016"
@@ -165,7 +165,7 @@ radii_of_extraction = [3, 4, 5,]
     path = "H:/Raw Data/Summer 2016/July 25, 2016"
     masterflat = "E:/Data Processing/Master Flats/2016/2016-05-29_masterflat.fit"
     
-# Using 8-22 flat: 7-26 -> 
+# # Using 8-22 flat: 7-26 -> 
     [[input.nights]]
     path = "H:/Raw Data/Summer 2016/July 26, 2016"
     masterflat = "E:/Data Processing/Master Flats/2016/2016-08-22_masterflat.fit"

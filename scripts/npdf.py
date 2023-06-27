@@ -28,12 +28,12 @@ for night in nights:
     if len(list(charts_folder.glob('*'))) == 0:
         continue # Skip since no photos
     candidates = list(charts_folder.glob(f'*normfactor*{charts_for_radius}*.png'))
-    for c in candidates:
-        png = Image.open(c)
-        png.load()
-        bg = Image.new("RGB", png.size, (255, 255, 255))
-        bg.paste(png, mask=png.split()[3])
-        images.append(bg)
+    c = sorted(candidates, key=lambda x: x.stat().st_mtime, reverse=True)[0]
+    png = Image.open(c)
+    png.load()
+    bg = Image.new("RGB", png.size, (255, 255, 255))
+    bg.paste(png, mask=png.split()[3])
+    images.append(bg)
 
 import random
 r = random.randint(1, 2)

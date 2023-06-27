@@ -72,7 +72,7 @@ radii_of_extraction = [3, 4, 5,]
     masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
 
 
-# Using 6-8 flat: 5-20 -> 6-23
+# # Using 6-8 flat: 5-20 -> 6-23
     [[input.nights]]
     path = "H://Raw Data/Summer 2015/May 20, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
@@ -109,7 +109,7 @@ radii_of_extraction = [3, 4, 5,]
     path = "H://Raw Data/Summer 2015/June 23, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-06-08_masterflat.fit"
 
-# Using 7-13 flat: 7-3 -> 8-21 
+# # Using 7-13 flat: 7-3 -> 8-21 
     [[input.nights]]
     path = "H://Raw Data/Summer 2015/July 3, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
@@ -118,10 +118,10 @@ radii_of_extraction = [3, 4, 5,]
     path = "H://Raw Data/Summer 2015/July 9, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
 
-    # No raw images taken in July 13
-    # [[input.nights]]
-    # path = "H://Raw Data/Summer 2015/July 13, 2015"
-    # masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
+#     # No raw images taken in July 13
+#     # [[input.nights]]
+#     # path = "H://Raw Data/Summer 2015/July 13, 2015"
+#     # masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
 
     [[input.nights]]
     path = "H://Raw Data/Summer 2015/July 14, 2015"
@@ -171,7 +171,7 @@ radii_of_extraction = [3, 4, 5,]
     path = "H://Raw Data/Summer 2015/August 21, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-07-13_masterflat.fit"
 
-# Using 9-29 flat: 9-12 -> 
+# # Using 9-29 flat: 9-12 -> 
     [[input.nights]]
     path = "H://Raw Data/Summer 2015/September 12, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-09-29_masterflat.fit"

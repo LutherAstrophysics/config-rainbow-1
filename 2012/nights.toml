@@ -39,7 +39,7 @@ masterflat = "E:/Data Processing/Master Flats/2012/2012-02-11_masterflat.fit"
 
 
 
-### Using 4-9 flat: 4-5 -> 5-9
+# ### Using 4-9 flat: 4-5 -> 5-9
 
 [[input.nights]]
 path = "H://Raw Data/Summer 2012/April 5, 2012"
@@ -74,7 +74,7 @@ path = "H://Raw Data/Summer 2012/May 9, 2012"
 masterflat = "E:/Data Processing/Master Flats/2012/2012-04-09_masterflat.fit"
 
 
-### Using 5-10 flat: 5-10 -> 6-9
+# ### Using 5-10 flat: 5-10 -> 6-9
 
 [[input.nights]]
 path = "H://Raw Data/Summer 2012/May 10, 2012"
@@ -157,7 +157,7 @@ masterflat = "E:/Data Processing/Master Flats/2012/2012-06-11_masterflat.fit"
 path = "H://Raw Data/Summer 2012/June 27, 2012"
 masterflat = "E:/Data Processing/Master Flats/2012/2012-06-11_masterflat.fit"
 
-### Using 7-8 flat: 7-8, 7-9
+# ### Using 7-8 flat: 7-8, 7-9
 
 [[input.nights]]
 path = "H://Raw Data/Summer 2012/July 8, 2012"
@@ -168,7 +168,7 @@ path = "H://Raw Data/Summer 2012/July 9, 2012"
 masterflat = "E:/Data Processing/Master Flats/2012/2012-07-08_masterflat.fit"
 
 
-### Using 7-11 flat: 7-14 ->  
+# ### Using 7-11 flat: 7-14 ->  
 
 [[input.nights]]
 path = "H://Raw Data/Summer 2012/July 14, 2012"
