@@ -2,132 +2,132 @@
 radii_of_extraction = [3, 4, 5,]
 
 
-[reference]
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+# [reference]
+# file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+# logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+# color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
 [input]
    
-    # [[input.nights]]
-    # path = "E:/Data Processing/Python Processed/2015/March 01, 2015"
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2015/March 01, 2015"
+    first_logfile_number = 1
+    last_logfile_number = 20
+    
+
+    # [[input.nights]] # too few images to process
+    # path = "E:/Data Processing/Python Processed/2015/March 05, 2015"
     # first_logfile_number = 1
     # last_logfile_number = 1000
     
 
     [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2015/March 05, 2015"
-    first_logfile_number = 1
+    path = "E:/Data Processing/Python Processed/2015/March 08, 2015"
+    first_logfile_number = 18
     last_logfile_number = 1000
     
 
     [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2015/March 08, 2015"
-    first_logfile_number = 18
-    last_logfile_number = 30
-    
-
-    [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/March 09, 2015"
-    first_logfile_number = 16
-    last_logfile_number = 40
+    first_logfile_number = 2
+    last_logfile_number = 39
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/March 14, 2015"
-    first_logfile_number = 22
+    first_logfile_number = 12
     last_logfile_number = 35
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/March 25, 2015"
-    first_logfile_number = 30
-    last_logfile_number = 1000
+    first_logfile_number = 10
+    last_logfile_number = 41
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/March 31, 2015"
-    first_logfile_number = 18
-    last_logfile_number = 45
+    first_logfile_number = 26
+    last_logfile_number = 61
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/April 05, 2015"
-    first_logfile_number = 50
+    first_logfile_number = 13
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/April 11, 2015"
-    first_logfile_number = 35
+    first_logfile_number = 40
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/April 13, 2015"
-    first_logfile_number = 15
+    first_logfile_number = 26
     last_logfile_number = 67
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/April 22, 2015"
-    first_logfile_number = 24
+    first_logfile_number = 32
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/April 25, 2015"
-    first_logfile_number = 45
-    last_logfile_number = 80
-    
-
-    [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2015/April 26, 2015"
-    first_logfile_number = 42
-    last_logfile_number = 90
-    
-
-    [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2015/April 30, 2015"
-    first_logfile_number = 57
+    first_logfile_number = 48
     last_logfile_number = 1000
     
 
     [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2015/April 26, 2015"
+    first_logfile_number = 40
+    last_logfile_number = 94
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2015/April 30, 2015"
+    first_logfile_number = 31
+    last_logfile_number = 43
+    
+
+    [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/May 12, 2015"
-    first_logfile_number = 30
-    last_logfile_number = 52
+    first_logfile_number = 22
+    last_logfile_number = 61
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/May 20, 2015"
-    first_logfile_number = 11
-    last_logfile_number = 62
+    first_logfile_number = 20
+    last_logfile_number = 113
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/May 21, 2015"
     first_logfile_number = 19
-    last_logfile_number = 80
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/May 27, 2015"
-    first_logfile_number = 28
+    first_logfile_number = 31
     last_logfile_number = 106
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/June 01, 2015"
-    first_logfile_number = 40
-    last_logfile_number = 110
+    first_logfile_number = 50
+    last_logfile_number = 107
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/June 08, 2015"
-    first_logfile_number = 117
-    last_logfile_number = 150
+    first_logfile_number = 25
+    last_logfile_number = 82
     
 
     [[input.nights]]
@@ -138,152 +138,152 @@ color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/June 18, 2015"
-    first_logfile_number = 41
-    last_logfile_number = 156
+    first_logfile_number = 42
+    last_logfile_number = 149
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/June 22, 2015"
-    first_logfile_number = 20
+    first_logfile_number = 51
     last_logfile_number = 100
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/June 23, 2015"
-    first_logfile_number = 90
-    last_logfile_number = 160
+    first_logfile_number = 44
+    last_logfile_number = 140
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 03, 2015"
-    first_logfile_number = 80
-    last_logfile_number = 120
+    first_logfile_number = 12
+    last_logfile_number = 100
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 09, 2015"
-    first_logfile_number = 70
-    last_logfile_number = 110
+    first_logfile_number = 1
+    last_logfile_number = 122
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 14, 2015"
-    first_logfile_number = 76
-    last_logfile_number = 115
+    first_logfile_number = 23
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 19, 2015"
-    first_logfile_number = 1
+    first_logfile_number = 6
     last_logfile_number = 63
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 20, 2015"
-    first_logfile_number = 53
-    last_logfile_number = 1000
+    first_logfile_number = 55
+    last_logfile_number = 110
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 21, 2015"
-    first_logfile_number = 58
-    last_logfile_number = 100
+    first_logfile_number = 81
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/July 23, 2015"
     first_logfile_number = 1
-    last_logfile_number = 50
+    last_logfile_number = 60
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 03, 2015"
-    first_logfile_number =67 
+    first_logfile_number = 32 
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 10, 2015"
-    first_logfile_number = 40
-    last_logfile_number = 84
+    first_logfile_number = 33
+    last_logfile_number = 80
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 11, 2015"
-    first_logfile_number = 42
-    last_logfile_number = 70
+    first_logfile_number = 43
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 14, 2015"
-    first_logfile_number = 7
-    last_logfile_number = 46
+    first_logfile_number = 8
+    last_logfile_number = 39
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 15, 2015"
     first_logfile_number = 1
-    last_logfile_number = 30
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 20, 2015"
-    first_logfile_number = 10
-    last_logfile_number = 30
+    first_logfile_number = 4
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/August 21, 2015"
     first_logfile_number = 1
-    last_logfile_number = 36
+    last_logfile_number = 62
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 12, 2015"
-    first_logfile_number = 30
-    last_logfile_number = 45
+    first_logfile_number = 9
+    last_logfile_number = 40
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 13, 2015"
-    first_logfile_number = 8
+    first_logfile_number = 1
     last_logfile_number = 35
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 26, 2015"
-    first_logfile_number = 5
-    last_logfile_number = 11
+    first_logfile_number = 1
+    last_logfile_number = 30
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 27, 2015"
-    first_logfile_number = 16
-    last_logfile_number = 25
+    first_logfile_number = 1
+    last_logfile_number = 30
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 29, 2015"
-    first_logfile_number = 18
+    first_logfile_number = 1
     last_logfile_number = 25
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/September 30, 2015"
-    first_logfile_number = 20
+    first_logfile_number = 1
     last_logfile_number = 32
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/October 01, 2015"
     first_logfile_number = 10
-    last_logfile_number = 19
+    last_logfile_number = 25
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/October 02, 2015"
-    first_logfile_number = 1
-    last_logfile_number = 1000
+    first_logfile_number = 2
+    last_logfile_number = 15
     
 
     [[input.nights]]
@@ -301,7 +301,7 @@ color = "E:/Data Processing/Reference Files/MeanRI100.txt"
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2015/October 15, 2015"
     first_logfile_number = 2
-    last_logfile_number = 9
+    last_logfile_number = 11
     
  
  

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-year_folder = Path('E:/Data Processing/Python Processed/2018')
+year_folder = Path('F:/Python_Processed/2021')
 
 for night in year_folder.glob('*'): 
     night_path = str(night.absolute())

@@ -14,10 +14,10 @@ radii_of_extraction = [3, 4, 5,]
     path = "H://Raw Data/Summer 2015/March 1, 2015"
     masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
 
-    # Bad night
-    # [[input.nights]]
-    # path = "H://Raw Data/Summer 2015/March 5, 2015"
-    # masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
+    # Bad night, could not align most of the images so there are not enough flux values
+    [[input.nights]]
+    path = "H://Raw Data/Summer 2015/March 5, 2015"
+    masterflat = "E:/Data Processing/Master Flats/2015/2015-03-01_masterflat.fit"
 
     [[input.nights]]
     path = "H://Raw Data/Summer 2015/March 8, 2015"

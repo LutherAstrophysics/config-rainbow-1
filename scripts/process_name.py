@@ -4,7 +4,7 @@ from folders import get_nights_sorted
 
 
 year = sys.argv[1]
-year_folder = Path(f'H:/Raw Data/Summer {year}')
+year_folder = Path(f'G:/Raw Data/Summer {year}')
 
 nights = get_nights_sorted(year_folder)
 

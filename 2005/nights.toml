@@ -8,20 +8,112 @@ no_of_images_to_combine = 10
 radii_of_extraction = [3, 4, 5,]
 
 
-[reference]
-# The image file is an actual fit image while the reffile refers to the stats file for that image
-image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+# [reference]
+# # The image file is an actual fit image while the reffile refers to the stats file for that image
+# image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
+# file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+# logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+# color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
 [input]
 
     [[input.nights]]
-    path = "H://Raw Data/Summer 2005/"
-    masterflat = "E:/Data Processing/Master Flats/2005/2021-03-11_masterflat.fit"
+    path = "G://Raw Data/Summer 2005/June 23, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/June 26, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/July 1, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/July 5, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    # [[input.nights]] # Missing data
+    # path = "G://Raw Data/Summer 2005/July 8, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    # [[input.nights]] # Missing data
+    # path = "G://Raw Data/Summer 2005/July 9, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    # [[input.nights]] # Missing data
+    # path = "G://Raw Data/Summer 2005/July 10, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-05_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/July 13, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-13_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/July 14, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-14_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/July 16, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-14_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/July 22, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-07-14_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/July 23, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-14_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/July 28, 2005 Problem"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-14_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/July 31, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-07-31_masterflat.fit"
     
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 1, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-01_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 4, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-04_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 6, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-06_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 7, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-07_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/August 8, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-08-08_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 20, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-20_masterflat.fit"
+
+    [[input.nights]]
+    path = "G://Raw Data/Summer 2005/August 21, 2005"
+    masterflat = "E:/Data Processing/Master Flats/2005/2005-08-21_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 27, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-27_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 28, 2005" # Missing data
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-27_masterflat.fit"
+
+    # [[input.nights]]
+    # path = "G://Raw Data/Summer 2005/August 30, 2005"
+    # masterflat = "E:/Data Processing/Master Flats/2005/2005-08-30_masterflat.fit"
+
 
 [output]
 path = "E:/Data Processing/Python Processed/2005"
