@@ -2,9 +2,9 @@
 radii_of_extraction = [3, 4, 5,]
 
 
-[reference]
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+# [reference]
+# file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+# color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
 [input]

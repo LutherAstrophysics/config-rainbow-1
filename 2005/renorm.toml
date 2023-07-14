@@ -2,15 +2,119 @@
 radii_of_extraction = [3, 4, 5,]
 
 
-[reference]
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+# [reference]
+# file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
+# logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
+# color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
 [input]
 
+    
     [[input.nights]]
-    path = "E://Data Processing/Python Processed/2005/ "
+    path = "E:/Data Processing/Python Processed/2005/June 23, 2005"
     first_logfile_number = 1
     last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/June 26, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 01, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 05, 2005"
+    first_logfile_number = 20
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 13, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 40
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 14, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 130
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 16, 2005"
+    first_logfile_number = 15
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 22, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 115
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 31, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 80
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 01, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 80
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 04, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 198
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 06, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 165
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 07, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 125
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 08, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 155
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 20, 2005"
+    first_logfile_number = 60
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 21, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 80
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 27, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/August 30, 2005"
+    first_logfile_number = 20
+    last_logfile_number = 1000
+    
