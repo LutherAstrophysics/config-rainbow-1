@@ -233,66 +233,66 @@ cpu_fraction = 0.5
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/July 31, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/August 15, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 30
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/August 19, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 30
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/August 31, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 05, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 22
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 07, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 20
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 13, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 34
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 14, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 20, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 24, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2006/September 25, 2006"
-    first_logfile_number = 
-    last_logfile_number = 
+    first_logfile_number = 1
+    last_logfile_number = 1000
     
