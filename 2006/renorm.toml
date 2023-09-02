@@ -1,16 +1,298 @@
 [processing]
 radii_of_extraction = [3, 4, 5,]
-
-
-[reference]
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
-
+cpu_fraction = 0.5
 
 [input]
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/March 28, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 64
+    
 
     [[input.nights]]
-    path = "E://Data Processing/Python Processed/2006/ "
+    path = "E:/Data Processing/Python Processed/2006/April 03, 2006"
     first_logfile_number = 1
     last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 04, 2006"
+    first_logfile_number = 3
+    last_logfile_number = 12
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 07, 2006"
+    first_logfile_number = 23
+    last_logfile_number = 79
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 14, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 23, 2006"
+    first_logfile_number = 38
+    last_logfile_number = 105
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 24, 2006"
+    first_logfile_number = 12
+    last_logfile_number = 25
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 25, 2006"
+    first_logfile_number = 20
+    last_logfile_number = 85
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/April 26, 2006"
+    first_logfile_number = 18
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 03, 2006"
+    first_logfile_number = 10
+    last_logfile_number = 65
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 05, 2006"
+    first_logfile_number = 19
+    last_logfile_number = 43
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 06, 2006"
+    first_logfile_number = 90
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 17, 2006"
+    first_logfile_number = 42
+    last_logfile_number = 65
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 19, 2006"
+    first_logfile_number = 20
+    last_logfile_number = 145
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 21, 2006"
+    first_logfile_number = 35
+    last_logfile_number = 118
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 22, 2006"
+    first_logfile_number = 10
+    last_logfile_number = 140
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 26, 2006"
+    first_logfile_number = 6
+    last_logfile_number = 35
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/May 28, 2006"
+    first_logfile_number = 50
+    last_logfile_number = 70
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 01, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 02, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 06, 2006"
+    first_logfile_number = 4
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 07, 2006"
+    first_logfile_number = 19
+    last_logfile_number = 35
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 21, 2006"
+    first_logfile_number = 8
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 22, 2006"
+    first_logfile_number = 5
+    last_logfile_number = 105
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 28, 2006"
+    first_logfile_number = 22
+    last_logfile_number = 142
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/June 29, 2006"
+    first_logfile_number = 80
+    last_logfile_number = 125
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 04, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 70
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 05, 2006"
+    first_logfile_number = 40
+    last_logfile_number = 120
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 06, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 43
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 12, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 100
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 14, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 106
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 15, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 90
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 17, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 18, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 105
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 23, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 63
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 27, 2006"
+    first_logfile_number = 1
+    last_logfile_number = 60
+    
+    # Too few images, skipped normalization
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2006/July 29, 2006"
+    # first_logfile_number = 
+    # last_logfile_number = 
+
+    # Looks like some images were corrupted
+    # [[input.nights]]
+    # path = "E:/Data Processing/Python Processed/2006/July 30, 2006"
+    # first_logfile_number = 
+    # last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/July 31, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/August 15, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/August 19, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/August 31, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 05, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 07, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 13, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 14, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 20, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 24, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2006/September 25, 2006"
+    first_logfile_number = 
+    last_logfile_number = 
+    

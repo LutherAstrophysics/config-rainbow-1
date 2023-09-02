@@ -1,26 +1,213 @@
 [image]
 rows = 1024
 columns = 1024
-
+crop_region = []
 
 [processing]
-no_of_images_to_combine = 10
-radii_of_extraction = [3, 4, 5,]
-
-
-[reference]
-# The image file is an actual fit image while the reffile refers to the stats file for that image
-image = "E:/Data Processing/Reference Files/m23_3.5_071.fit" 
-file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-color = "E:/Data Processing/Reference Files/MeanRI100.txt"
+no_of_images_to_combine = 14
+radii_of_extraction = [ 3, 4, 5,]
+cpu_fraction = 0.8
+image_duration = 5.0
+dark_prefix = "dark_"
 
 [input]
+[[input.nights]]
+path = "F:/Summer 2006/March 28, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
 
-    [[input.nights]]
-    path = "H://Raw Data/Summer 2006/"
-    masterflat = "E:/Data Processing/Master Flats/2006/2021-03-11_masterflat.fit"
+[[input.nights]]
+path = "F:/Summer 2006/April 3, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
 
-    
+[[input.nights]]
+path = "F:/Summer 2006/April 4, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 7, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 14, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 23, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 24, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 25, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/April 26, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 3, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 5, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 6, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 17, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 19, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 21, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 22, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-04-03_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 26, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-05-28_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/May 28, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-05-28_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 1, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-05-28_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 2, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-05-28_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 6, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-05-28_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 7, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-21_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 21, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-21_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 22, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-21_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 28, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-26_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/June 29, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-26_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 4, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-26_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 5, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-26_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 6, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-06-26_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 12, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-12_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 14, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-12_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 15, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-15_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 17, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-15_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 18, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-23_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 23, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-23_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 27, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-23_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 29, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-29_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 30, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-29_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/July 31, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-07-29_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/August 15, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-08-15_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/August 19, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-08-15_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/August 31, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-08-31_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 5, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-07_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 7, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-07_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 13, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-13_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 14, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-14_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 20, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-20_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 24, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-24_masterflat_5.0.fit"
+
+[[input.nights]]
+path = "F:/Summer 2006/September 25, 2006"
+masterflat = "E://Data Processing/Master Flats/2006/2006-09-24_masterflat_5.0.fit"
+
 [output]
 path = "E:/Data Processing/Python Processed/2006"
+save_aligned = false
+save_calibrated = false

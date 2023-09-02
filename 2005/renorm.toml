@@ -1,110 +1,141 @@
 [processing]
 radii_of_extraction = [3, 4, 5,]
+cpu_fraction = 0.5
 
-
-# [reference]
-# file = "E:/Data Processing/Reference Files/ref_revised_71.txt"
-# logfile = "E:/Data Processing/Reference Files/08-05-03_m23_3.5-071.txt"
-# color = "E:/Data Processing/Reference Files/MeanRI100.txt"
 
 
 [input]
-
     
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/June 23, 2005"
-    first_logfile_number = 1
-    last_logfile_number = 1000
+    first_logfile_number = 4
+    last_logfile_number = 108
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/June 26, 2005"
+    first_logfile_number = 10
+    last_logfile_number = 100
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/June 30, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 82
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 04, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 95
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 07, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 37
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 09, 2005"
     first_logfile_number = 1
     last_logfile_number = 1000
     
 
     [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2005/July 01, 2005"
+    path = "E:/Data Processing/Python Processed/2005/July 10, 2005"
     first_logfile_number = 1
-    last_logfile_number = 1000
-    
-
-    [[input.nights]]
-    path = "E:/Data Processing/Python Processed/2005/July 05, 2005"
-    first_logfile_number = 20
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/July 13, 2005"
     first_logfile_number = 1
-    last_logfile_number = 40
+    last_logfile_number = 10
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/July 14, 2005"
     first_logfile_number = 1
-    last_logfile_number = 130
+    last_logfile_number = 82
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/July 16, 2005"
-    first_logfile_number = 15
+    first_logfile_number = 1
     last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 21, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 41
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/July 22, 2005"
     first_logfile_number = 1
-    last_logfile_number = 115
+    last_logfile_number = 10
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 27, 2005"
+    first_logfile_number = 1
+    last_logfile_number = 1000
+    
+
+    [[input.nights]]
+    path = "E:/Data Processing/Python Processed/2005/July 28, 2005"
+    first_logfile_number = 24
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/July 31, 2005"
     first_logfile_number = 1
-    last_logfile_number = 80
+    last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 01, 2005"
     first_logfile_number = 1
-    last_logfile_number = 80
+    last_logfile_number = 33
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 04, 2005"
     first_logfile_number = 1
-    last_logfile_number = 198
+    last_logfile_number = 70
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 06, 2005"
     first_logfile_number = 1
-    last_logfile_number = 165
+    last_logfile_number = 60
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 07, 2005"
     first_logfile_number = 1
-    last_logfile_number = 125
+    last_logfile_number = 60
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 08, 2005"
     first_logfile_number = 1
-    last_logfile_number = 155
+    last_logfile_number = 57
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 20, 2005"
-    first_logfile_number = 60
+    first_logfile_number = 21
     last_logfile_number = 1000
     
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 21, 2005"
     first_logfile_number = 1
-    last_logfile_number = 80
+    last_logfile_number = 44
     
 
     [[input.nights]]
@@ -115,6 +146,10 @@ radii_of_extraction = [3, 4, 5,]
 
     [[input.nights]]
     path = "E:/Data Processing/Python Processed/2005/August 30, 2005"
-    first_logfile_number = 20
+    first_logfile_number = 1
     last_logfile_number = 1000
+    
+
+    
+    
     
