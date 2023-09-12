@@ -1,7 +1,11 @@
 # Note that it's important to define input and output before image definition
-input = "H:/Raw Data/Summer 2007/"
+input = "F:/Summer 2007/April 20, 2007"
+# input = "F:/Summer 2007/May 18, 2007"
+# input = "F:/Summer 2007/July 20, 2007"
 output = "E:/Data Processing/Master Flats/2007"
 
+image_duration = 2.8
+dark_prefix = "darkf"
 
 [image]
 rows = 1024
