@@ -4,13 +4,12 @@
 # input = "H://Raw Data/Summer 2011/March 5, 2011"
 # input = "H://Raw Data/Summer 2011/May 26, 2011"
 # input = "H://Raw Data/Summer 2011/May 31, 2011"
-# input = "H://Raw Data/Summer 2011/July 24, 2011"
-input = "H://Raw Data/Summer 2011/October 1, 2011"
-
+input = "H://Raw Data/Summer 2011/July 24, 2011"
 output = "E:/Data Processing/Master Flats/2011"
-
+image_duration = 3.5
+# If darkf (s) are present use them otherwise use dark
+dark_prefix = "dark_"
 
 [image]
 rows = 1024
 columns = 1024
-

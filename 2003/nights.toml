@@ -7,49 +7,49 @@ columns = 1024
 no_of_images_to_combine = 20
 radii_of_extraction = [3, 4, 5,]
 image_duration = 3.5
-cpu_fraction = 0.6
+cpu_fraction = 0
 
 
 [input]
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 18, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 18, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 19, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 19, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 20, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 20, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 28, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 28, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 29, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 29, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/June 30, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/June 30, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/July 1, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/July 1, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
-    # [[input.nights]]
-    # path = "G:/Raw Data/Summer 2003/July 2, 2003"
-    # masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
+    [[input.nights]]
+    path = "G:/Raw Data/Summer 2003/July 2, 2003"
+    masterflat = "E:/Data Processing/Master Flats/2003/2003-06-23_masterflat_3.5.fit"
     
 
     [[input.nights]]
@@ -157,12 +157,14 @@ cpu_fraction = 0.6
     masterflat = "E:/Data Processing/Master Flats/2003/masterflat_09-11-03.fit"
     
 
-    [[input.nights]]
-    path = "G:/Raw Data/Summer 2003/September 8, 2003"
-    masterflat = "E:/Data Processing/Master Flats/2003/masterflat_09-11-03.fit"
+    # [[input.nights]]
+    # path = "G:/Raw Data/Summer 2003/September 8, 2003"
+    # masterflat = "E:/Data Processing/Master Flats/2003/masterflat_09-11-03.fit"
     
 
     
 
 [output]
 path = "E:/Data Processing/Python Processed/2003"
+save_aligned = true
+save_calibrated = true
